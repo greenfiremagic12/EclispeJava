@@ -36,7 +36,6 @@ public class Loops {
 		for (String i4 : i3) {
 			System.out.println("The current array item is " + i4);
 		}
-		//bdkyuwbadyuwabkldyb
 		
 	}
 
