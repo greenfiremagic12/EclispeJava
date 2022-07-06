@@ -10,6 +10,8 @@ public class Loops {
 			i++;
 		}
 		
+		System.out.println(""); // spacing things out
+		
 		// the do while loop always runs once before checking if the condition is true or false
 		i = 0;
 		do {
@@ -17,12 +19,22 @@ public class Loops {
 		}
 		while (i == 1); // this condition is false, but it still runs once
 		
+		System.out.println(""); // spacing things out
+		
 		/* the next type of loop is a for loop. 
 			the first part of the loop is executed once before the loop, 
 			the second part is the condition for the loop
 			the third part is executed every time the loop happens */
 		for (int i2 = 0; i2 < 10; i2++) {
 			System.out.println("Executed " + (i2 + 1) + " time(s) in a for loop");
+		}
+		
+		System.out.println(""); // spacing things out
+		
+		// another variant of the for loop is the for each 
+		String[] i3 = {"Item1", "Item2", "Item3"}; // needs an array
+		for (String i4 : i3) {
+			System.out.println("The current array item is " + i4);
 		}
 		
 	}
